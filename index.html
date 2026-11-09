@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Love Story ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="hearts" id="hearts"></div>
+
+    <header>
+        <h2>♡ ELBI ♡</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#memories">Memories</a>
+            <a href="#story">Our Story</a>
+            <a href="#letter">Love Letter</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="subtitle">A LITTLE WEBSITE FOR SOMEONE SPECIAL</p>
+            <h1>Welcome to Our<br><span>Love Story ❤️</span></h1>
+            <p>
+                Dunia mungkin luas, tetapi aku bersyukur
+                bisa menemukan seseorang sepertimu.
+            </p>
+            <a href="#memories" class="btn">Explore Our Story ♥</a>
+        </div>
+    </section>
+
+    <section class="memories" id="memories">
+        <p class="subtitle">OUR BEAUTIFUL MOMENTS</p>
+        <h2>Little Pieces of <span>Happiness</span></h2>
+        <p class="description">
+            Setiap momen bersamamu adalah kenangan yang berharga.
+        </p>
+
+        <div class="gallery">
+            <div class="photo">
+                <img src="images/foto1.jpeg" alt="Kenangan 1">
+                <p>Our First Memory 💗</p>
+            </div>
+            <div class="photo">
+                <img src="images/foto2.jpeg" alt="Kenangan 2">
+                <p>Beautiful Day 🌷</p>
+            </div>
+            <div class="photo">
+                <img src="images/foto3.jpeg" alt="Kenangan 3">
+                <p>Forever Together 💕</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="story" id="story">
+        <p class="subtitle">CHAPTER OF US</p>
+        <h2>Our Special <span>Journey</span></h2>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>🌸 The Beginning</h3>
+                <p>Awal mula kita saling mengenal dan mulai bercerita.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>💗 Getting Closer</h3>
+                <p>Hari demi hari, semakin banyak cerita yang kita lalui.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>💕 Our Forever</h3>
+                <p>Semoga kita selalu punya alasan untuk saling tersenyum.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="letter" id="letter">
+        <p class="subtitle">A MESSAGE FROM MY HEART</p>
+        <h2>A Letter For <span>You</span> 💌</h2>
+
+        <div class="letter-card">
+            <div class="envelope">💌</div>
+            <h3>To My Favorite Person</h3>
+            <p id="letterText">
+                Ada banyak hal yang ingin aku ceritakan,
+                tetapi satu hal yang paling penting adalah
+                aku bersyukur kamu hadir dalam hidupku.
+                Terima kasih sudah menjadi bagian dari
+                cerita indahku. Semoga kita terus bersama
+                menciptakan kenangan yang lebih indah.
+                I love you! ❤️
+            </p>
+            <button class="btn" onclick="showLove()">Klik Untuk Kejutan ❤️</button>
+            <h3 id="surprise"></h3>
+        </div>
+    </section>
+
+    <footer>
+        <h2>❤️</h2>
+        <p>Every love story is beautiful, but ours is my favorite.</p>
+        <p>ELBI</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+
+
+<audio id="bgMusic" loop>
+    <source src="./music/lagu-kita.mp3" type="audio/mpeg">
+</audio>
+
+<div class="music-player" id="musicPlayer">
+    <div class="music-info">
+        <strong>Our Love Song ❤️</strong>
+        <small>Special for you</small>
+    </div>
+
+    <button type="button" id="musicBtn">▶ PLAY</button>
+</div>
+
+
+
+</body>
+</html>
